@@ -9,9 +9,9 @@ import { PrimeNGConfig} from 'primeng/api';
 export class AppComponent implements OnInit {
   title = 'Stock-control';
 
-  constructor(private primeNgConfig: PrimeNGConfig) {}
+  constructor(private primeNgConfig: PrimeNGConfig) { }
 
   ngOnInit(): void {
-    this.primeNgConfig.ripple = true
+    this.primeNgConfig.ripple = true;
   }
 }
